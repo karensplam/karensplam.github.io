@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+
+<style>
+
+a#show-all-profile, a#hide-all-profile, a#sort-all-profile {color: #ccc; text-decoration:none; border: 2px solid #ccc;padding: 3% 5%; margin-bottom: 30px; display: block; width:25%; float:left;}
+
+a#hide-all-profile {display:none;}
+
+
+#cat-profile-page-wrapper {width: 100%; padding-bottom: 30px;overflow: hidden; min-width:660px;}
+
+.cat-profile-single-wrapper { width:25%; border:1px solid #ccc;overflow: hidden; float:left; margin-right:2%;}
+
+.active{ width:100%; float:none;}
+
+.cat-profile-pic-container { float:left; position:relative;width:100%; padding-top:100%;overflow:hidden;} 
+
+.active .cat-profile-pic-container {width:25%;padding-top:25%;}
+
+.cat-profile-pic-container img{ position: absolute; top:0;left:0; width: 100%;height:auto;}
+
+.cat-profile-pic-container div.profile-pic-overlay{
+	background: rgba(0,0,0,0.4);
+	color:#fff;
+	height:0;
+	width:100%;
+	padding-bottom: 100%;
+    position:absolute;
+    top:80%;
+    left:0;
+	text-align:center;
+	 -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+     transition: all 1s ease;
+}
+
+div.cat-profile-pic-container:hover div.profile-pic-overlay{
+	top:0;
+}
+
+.active div.cat-profile-pic-container div.profile-pic-overlay{
+	display:none;
+}
+
+.cat-profile-pic-container div.profile-pic-overlay p{
+	margin: 10%;
+	font-size:18px;
+}
+
+.cat-profile-pic-container div.profile-pic-overlay a{ 
+color: #ccc; text-decoration:none; border: 2px solid #ccc; padding: 3% 5%; position:absolute; bottom: 6%; left:10%; width:70%; font-size:14px; display:block; }
+
+.cat-profile-pic-container div.profile-pic-overlay a:hover{ 
+color: #fff; text-decoration:none; border: 2px solid #fff; 	
+ }
+
+.cat-profile-content-container { width: 65%; padding:1% 2%; float:left; display:none;}
+.active  .cat-profile-content-container { display:block;}
+
+.cat-profile-content-container ul{ margin: 0;
+padding: 0; list-style-type:none; }
+</style>
+</head>
+
+<body>
+<h1>Kittywood</h1>
+<a id="show-all-profile" href="#";>See all profile</a>
+<a id="hide-all-profile" href="#";>Hide all profile</a>
+<a id="sort-all-profile" href="#";>Sort A > Z</a>
+
+
+<span style="clear:both;">&nbsp;</span>
+<div id="cat-profile-page-wrapper">
+<!-- Section: Maru -->
+<div id="maru" class="cat-profile-single-wrapper">
+<div class="cat-profile-pic-container">
+<img src="images/maru.jpg" />
+<div class="profile-pic-overlay">
+<p>MARU</p>
+<a href="#">Learn more ></a>
+</div><!-- end .profile-pic-overlay for maru -->
+</div><!-- end .cat-profile-pic-container for maru -->
+<div class="cat-profile-content-container">
+<ul>
+<li>Known as: MARU</li>
+<li>Real Name: まる</li>
+<li>Gender: Male &#9794;</li>
+<li>Bleed: Scottish Fold</li>
+<li>DOB: May 24, 2007</li>
+<li>Nationality: USA</li>
+</ul>
+</div><!-- end .cat-profile-content-container for maru -->
+</div><!-- end .cat-profile-single-wrapper for maru -->
+<!-- Section: grumpy -->
+<div id="grumpy" class="cat-profile-single-wrapper">
+<div class="cat-profile-pic-container">
+<img src="images/grumpy.jpg" />
+<div class="profile-pic-overlay">
+<p>Grumpy Cat</p>
+<a href="#">Learn more ></a>
+</div><!-- end .profile-pic-overlay for grumpy -->
+</div><!-- end .cat-profile-pic-container for grumpy -->
+<div class="cat-profile-content-container">
+<ul>
+<li>Known as: Grumpy Cat</li>
+<li>Real Name: Tardar Sauce</li>
+<li>Gender: Female &#9792;</li>
+<li>Bleed: Mixed (looks to have some Persian, Ragdoll, or Snowshoe)</li>
+<li>DOB: April 4, 2012</li>
+<li>Nationality: Japan</li>
+</ul>
+</div><!-- end .cat-profile-content-container for grumpy -->
+</div><!-- end .cat-profile-single-wrapper for grumpy -->
+<!-- Section: venus -->
+<div id="venus" class="cat-profile-single-wrapper">
+<div class="cat-profile-pic-container">
+<img src="images/venus.jpg" />
+<div class="profile-pic-overlay">
+<p>Venus</p>
+<a href="#">Learn more ></a>
+</div><!-- end .profile-pic-overlay for venus -->
+</div><!-- end .cat-profile-pic-container for venus -->
+<div class="cat-profile-content-container">
+<ul>
+<li>Known as: Venus Two Face Cat</li>
+<li>Name: Venus</li>
+<li>Gender: Female &#9792;</li>
+<li>Bleed: TBA</li>
+<li>DOB: TBA</li>
+<li>Nationality: TBA</li>
+</ul>
+</div><!-- end .cat-profile-content-container for venus -->
+</div><!-- end .cat-profile-single-wrapper for venus -->
+<!-- Section: bro-cream -->
+<div id="bro-cream" class="cat-profile-single-wrapper">
+<div class="cat-profile-pic-container">
+<img src="images/bro-cream.jpg" />
+<div class="profile-pic-overlay">
+<p>Brother Cream</p>
+<a href="#">Learn more ></a>
+</div><!-- end .profile-pic-overlay for bro-cream -->
+</div><!-- end .cat-profile-pic-container for bro-cream -->
+<div class="cat-profile-content-container">
+<ul>
+<li>Known as: Brother Cream</li>
+<li>Name: 忌廉哥</li>
+<li>Gender: Male &#9794;</li>
+<li>Bleed: TBA</li>
+<li>DOB: TBA</li>
+<li>Nationality: Hong Kong</li>
+</ul>
+</div><!-- end .cat-profile-content-container for bro-cream -->
+</div><!-- end .cat-profile-single-wrapper for bro-cream -->
+<!-- Section: lil-bub -->
+<div id="lil-bub" class="cat-profile-single-wrapper">
+<div class="cat-profile-pic-container">
+<img src="images/lil-bub.jpg" />
+<div class="profile-pic-overlay">
+<p>Lil Bub</p>
+<a href="#">Learn more ></a>
+</div><!-- end .profile-pic-overlay for lil-bub -->
+</div><!-- end .cat-profile-pic-container for lil-bub -->
+<div class="cat-profile-content-container">
+<ul>
+<li>Known as: Lil Bub</li>
+<li>Name: TBA</li>
+<li>Gender: TBA</li>
+<li>Bleed: TBA</li>
+<li>DOB: TBA</li>
+<li>Nationality: TBA</li>
+</ul>
+</div><!-- end .cat-profile-content-container for lil-bub -->
+</div><!-- end .cat-profile-single-wrapper for lil-bub -->
+<!-- Section: tama -->
+<div id="tama" class="cat-profile-single-wrapper">
+<div class="cat-profile-pic-container">
+<img src="images/tama.jpg" />
+<div class="profile-pic-overlay">
+<p>Tama</p>
+<a href="#">Learn more ></a>
+</div><!-- end .profile-pic-overlay for tama -->
+</div><!-- end .cat-profile-pic-container for tama -->
+<div class="cat-profile-content-container">
+<ul>
+<li>Known as: Tama the station master</li>
+<li>Name: たま</li>
+<li>Gender: TBA</li>
+<li>Bleed: TBA</li>
+<li>DOB: TBA</li>
+<li>Nationality: Japan</li>
+</ul>
+</div><!-- end .cat-profile-content-container for tama -->
+</div><!-- end .cat-profile-single-wrapper for tama -->
+</div><!-- end #cat-profile-page-wrapper -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+		$("a#show-all-profile").on("click", function(e){
+        e.preventDefault();
+		$(".cat-profile-single-wrapper").addClass("active");
+		$("#hide-all-profile").fadeIn();
+		$("#hide-all-profile").text("Hide all profile");
+		$(this).hide();
+	});
+	
+	$("a#hide-all-profile").on("click", function(e){
+        e.preventDefault();
+		$(".cat-profile-single-wrapper").removeClass("active");
+		$("#show-all-profile").fadeIn();
+		$(this).hide();
+	});
+	
+	
+	
+	$(".cat-profile-pic-container div.profile-pic-overlay a").on("click", function(e){
+        e.preventDefault();
+		var mainWrap = $(this).parent().parent().parent();
+		$(".active").removeClass("active");
+		mainWrap.addClass("active");
+		mainWrap.parent().prepend(mainWrap);
+		if(	$(".cat-profile-single-wrapper").hasClass("active")){
+			$("#hide-all-profile").css("display","block");
+			$("#hide-all-profile").text("Hide this profile");
+		$("a#show-all-profile").hide();
+			}
+	});
+	
+	
+
+	$("#sort-all-profile").on("click", function(e){
+        e.preventDefault();
+		$(".active").removeClass("active");
+		var unsortedArrayofIDs = $.map($(".cat-profile-single-wrapper"), function(n, i){
+		  return n.id;
+		});
+		console.log("Unsorted..." + unsortedArrayofIDs);
+		
+		var sortedArrayIDlist = jQuery.makeArray(unsortedArrayofIDs).sort();
+		console.log("Sorted A-Z! " + sortedArrayIDlist);
+		
+		if ($(this).hasClass("reverseOrderActive")){
+			$(this).text("Sort A > Z");
+				sortedArrayIDlist.forEach(function(entry) {
+        console.log(entry);
+		var thisID = '#' + entry;
+		var thisClass = '.' + $(thisID).attr("class");
+		var thisIDandClass = thisID + thisClass;
+		$(thisIDandClass).addClass("active");
+		$(thisIDandClass).parent().prepend($(thisIDandClass));
+		});
+			$(this).removeClass("reverseOrderActive");
+			} else {
+			var reversedArrayIDlist = sortedArrayIDlist.reverse();
+		console.log("Sorted Z-A! " + reversedArrayIDlist);
+		reversedArrayIDlist.forEach(function(entry) {
+        console.log(entry);
+		var thisID = '#' + entry;
+		var thisClass = '.' + $(thisID).attr("class");
+		var thisIDandClass = thisID + thisClass;
+		$(thisIDandClass).addClass("active");
+		$(thisIDandClass).parent().prepend($(thisIDandClass));
+		});
+				$(this).addClass("reverseOrderActive");
+				$(this).text("Sort Z > A");
+				}
+				
+		
+		$("#hide-all-profile").css("display","block");
+		$("#hide-all-profile").text("Hide all profile");
+		$("#show-all-profile").hide();
+		
+	});
+	
+
+		
+});
+</script>
+</body>
+</html>
