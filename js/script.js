@@ -17,6 +17,16 @@ $(document).ready(function(){
 	 $("nav ul").fadeOut('300');
 	 $(".burger-button").show();
 	  });
+	
+	
+	// 2021 - temp fix
+	
+	$('a[href="#video"]').click(function(e){
+	  	e.preventDefault();
+		$('html, body').animate({
+		     scrollTop: $('#video').offset().top
+		}, 'slow');
+	 });
 
 
 
