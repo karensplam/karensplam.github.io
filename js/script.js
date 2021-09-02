@@ -1,25 +1,38 @@
 $(document).ready(function(){
 
-	// Global -  mobile button:
-	  $(".burger-button").click(function(e){
-  	e.preventDefault();
-  	$("nav ul").fadeIn('300');
-  	$(".burger-button").hide();
-  });
-
-	$(".mobile-close-btn").click(function(e){
-	  	e.preventDefault();
-	  	$("nav ul").fadeOut('300');
-	  	$(".burger-button").show();
-	  });
-
-	$("nav ul li").click(function(){
-	 $("nav ul").fadeOut('300');
-	 $(".burger-button").show();
-	  });
 	
 	
 	// 2021 - temp fix
+	
+	
+    $( window ).resize(function() {
+	if ($(window).width() < 669) {
+		$("nav").addClass('mobile-only');
+	} else {
+		$("nav").removeClass('mobile-only');
+	}
+    }
+
+
+	// Global -  mobile button:
+	$(".burger-button").click(function(e){
+  	  e.preventDefault();
+  	  $("nav.mobile-only ul").fadeIn('300');
+    	  $(".burger-button").hide();
+  	});
+
+	$(".mobile-close-btn").click(function(e){
+	  	e.preventDefault();
+	  	$("nav.mobile-only ul").fadeOut('300');
+	  	$(".burger-button").show();
+	  });
+
+	$("nav.mobile-only ul li").click(function(){
+	 $("nav.mobile-only ul").fadeOut('300');
+	 $(".burger-button").show();
+	  });
+
+
 	
 	$('a[href="#video"]').click(function(e){
 	  	e.preventDefault();
