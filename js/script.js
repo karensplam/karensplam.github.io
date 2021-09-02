@@ -11,7 +11,7 @@ $(document).ready(function(){
 	} else {
 		$("nav").removeClass('mobile-only');
 	}
-    }
+    });
 
 
 	// Global -  mobile button:
