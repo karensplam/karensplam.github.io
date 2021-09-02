@@ -133,7 +133,7 @@ header nav ul a.mobile-close-btn { width: 35px;
 header nav ul{  margin:0 auto; padding:0; list-style-type:none; width: 100%;}
 header nav ul li{  margin:0 ; padding: 0; width: 25%; height: auto; display: block; float: left; text-align: center; font-size: 1.02em; font-weight: 600;  }
 header nav ul li a{ padding: 53.5% 5% 11% 5%; width: 98%; background: url(../images/nav-paw-btn.svg) 50% 5% no-repeat;background-size: 80%;  display: block; text-decoration: none; color: #70512f; }
-header nav ul li a:hover{ -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); filter: url(grayscale.svg); /* Firefox 4+ */filter: gray; /* IE 6-9 */;
+header nav ul li a:hover{ -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); filter: gray; /* IE 6-9 */;
                          text-decoration: none; }
 
 header.stick-top nav ul li:first-child { width: 25%; margin-left: 5%; margin-right: -5%;  }
