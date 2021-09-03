@@ -1,10 +1,15 @@
 $(document).ready(function(){
 
 	
-	
 	// 2021 - temp fix
 	
+	// on page load - define mobible
 	
+	if ($(window).width() < 669) {
+		$("nav").addClass('mobile-only');
+	} 
+	
+	// on resize (desktop) - define mobile
     $( window ).resize(function() {
 	if ($(window).width() < 669) {
 		$("nav").addClass('mobile-only');
